@@ -1,0 +1,399 @@
+/*
+Theme Name: RS
+Author: Richard Schwinn
+Description: My content-focused theme.
+Version: 1
+License: Uncopyrighted. 
+This theme is uncopyrighted. Do whatever you'd like with it.
+*/
+html {
+    background-color: #e6e9e9;
+    background-image: -webkit-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    background-image: linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 800px;
+    font: normal 100% Open Sans, Cardo,Helvetica,sans-serif;
+    font-size: 14px;
+    padding: 2em 1em 1em 1em;
+    line-height: 1.5em;
+    background-color: #fff;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+
+}
+p {
+    line-height: 1.5em;
+    font-family: Open Sans, Cardo, Georgia, Cambria, 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 1em;
+    margin: 0 2em;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    }
+
+ul {
+    line-height: 1.6em;
+    font-family: Open Sans, Cardo, Georgia, Cambria, 'Times New Roman', Times, serif;
+    margin-top: 0;
+    margin-left: 2em;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    }
+
+a:link {
+    color: #56a49f;
+    text-decoration: none;
+    border-width: 0;
+    border-style: none;
+}
+a:visited {
+    color: #56a49f;
+    text-decoration: none;
+    border: 0;
+    border-width: 0;
+    border-style: none;
+}
+a:hover {
+    color: #56a49f;
+    text-decoration: none;
+    border: 0;
+    border-width: 0;
+    border-style: none;
+}
+
+/* blog title */
+h1 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin: 0.5em 1.1em;
+    color: #666;
+    font-family: Cardo, Open Sans, Georgia, Times, serif;
+    letter-spacing: .1em;
+    -webkit-opacity: 0.30;
+    -moz-opacity: 0.30;
+    opacity: 0.30;
+    -webkit-transition: opacity 3s linear;
+    -moz-transition: opacity 3s linear;
+    -ms-transition: opacity 3s linear;
+    -o-transition: opacity 3s linear;
+    transition: opacity 3s linear;
+}
+/* fades author credit back in on hover */
+h1:hover {
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+}
+h1 strong {
+    color: #56a49f;
+    font-weight: bold;    
+}
+h2 {
+    font-weight: normal;
+    color: #666;
+    font-family: Open+Sans, Georgia, Times, serif;
+    line-height: 2em;
+    font-size: 2em;
+    letter-spacing: .1em;
+    text-align: center;
+    margin: 0 1.1em;
+    -webkit-opacity: 0.30;
+    -moz-opacity: 0.30;
+    opacity: 0.30;
+    -webkit-transition: opacity 3s linear;
+    -moz-transition: opacity 3s linear;
+    -ms-transition: opacity 3s linear;
+    -o-transition: opacity 3s linear;
+    transition: opacity 3s linear;
+}
+/* fades author credit back in on hover */
+h2:hover {
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+}
+h2 strong {
+    color: #56a49f;
+    font-weight: bold;    
+}
+h3 {
+    font-family: Open+Sans, Georgia, Times, serif;
+    line-height: 1em;
+    font-size: 1em;
+    letter-spacing: .1em;
+    margin: 0 1.1em;
+    -webkit-opacity: 0.30;
+    -moz-opacity: 0.30;
+    opacity: 0.30;
+    -webkit-transition: opacity 3s linear;
+    -moz-transition: opacity 3s linear;
+    -ms-transition: opacity 3s linear;
+    -o-transition: opacity 3s linear;
+    transition: opacity 3s linear;
+}
+/* fades author credit back in on hover */
+h3:hover {
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+}
+h3 strong {
+    color: #56a49f;
+    font-weight: bold;    
+}
+    
+h4 {
+    font-family: Joesfin+Sans, Cardo, Georgia, Times, serif;
+    line-height: 2em;
+    font-size: 2em;
+    letter-spacing: .1em;
+    margin: 0 1.1em;
+    color: #666;
+}
+/* used for "edit" link only visible to site owner/writers */
+h5 {
+    text-transform: uppercase;
+    color: #ccc;
+    line-height: 2em;
+    font-size: 2em;
+    letter-spacing: .1em;
+    margin: 0 1.1em;
+    letter-spacing: .2em;
+    font-family: Cardo,Helvetica,sans-serif;
+    font-weight: bold;
+}
+/* author credits */
+
+h6 {
+    font-size: 150%;
+    font-weight: normal;
+    color: #d3d3d3;
+    letter-spacing: .01em;
+    line-height: 2em;
+    font-size: 2em;
+    margin: 0 1.1em;    
+    text-align: center;
+}
+h6 a:link {
+    color: #d3d3d3;
+    text-decoration: none;
+    border-width: 0 0 1px 0;
+    border-style: none none solid none;
+    border-color: #c0c0c0;
+}
+h6 a:visited {
+    color: #d3d3d3;
+    text-decoration: none;
+    border-width: 0 0 1px 0;
+    border-style: none none solid none;
+    border-color: #c0c0c0;
+}
+h6 a#tagline { color: #56a49f }
+}
+img {
+    border: 0;
+    padding: 3px;
+}
+img a { border: 0 }
+
+
+/* for iPad-sized devices */
+@media only screen and (max-device-width: 800px) { 
+	/* makes blog title not fade on touch screen */
+	.top {
+	    margin: auto;
+	    -webkit-opacity: 1;
+	    -moz-opacity: 1;
+	    opacity: 1;
+	}
+    h6 {
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+        opacity: 1;
+        }
+	.navigation p { font-size: 1em }
+	.subscribe ul {
+	    margin-top: 4em;
+	    font-size: 1.8em;
+	}
+	.footer p { font-size: 1.2em }
+	h2 { font-size: 2.5em }
+	h3 { font-size: 2em }
+	h6 { font-size: 1.5em }
+	p {
+	    font-size: 1.5em;
+	    line-height: 1.5em;
+	}
+	.post ul {
+	    font-size: 1.5em;
+	    line-height: 1em;
+	    padding: .1;
+	}
+	.post ol {
+	    font-size: 1.5em;
+	    line-height: 1em;
+	    padding: .1;
+	}
+	#arc {
+	    font-size: 1.2em;
+	}
+}
+
+/* for narrower browsers */
+@media screen and (max-width: 800px) { 
+	/* makes blog title not fade on touch screen */
+	.top {
+	    margin: auto;
+	    -webkit-opacity: 1;
+	    -moz-opacity: 1;
+	    opacity: 1;
+	}
+	h6 {
+	    -webkit-opacity: 1;
+	    -moz-opacity: 1;
+	    opacity: 1;
+	}
+	.navigation p { font-size: 1em }
+	subscribe ul {
+	    margin-top: 4em;
+	    font-size: 1.8em;
+	}
+	.footer p { font-size: 1.2em }
+	h2 { font-size: 2.5em }
+	h3 { font-size: 2em }
+	h6 { font-size: 1.5em }
+	p {
+	    font-size: 1.5em;
+	    line-height: 1.5em;
+	}
+	.post ul {
+	    font-size: 1.5em;
+	    line-height: 1em;
+	    padding: .1;
+	}
+	.post ol {
+	    font-size: 1.5em;
+	    line-height: 1em;
+	    padding: .1;
+	}
+}
+
+/* for iPhone-sized devices */
+@media only screen and (max-device-width: 480px) { 
+	.container { width: auto }
+	body { padding: 0 }
+	h1 { font-size: 2em }
+	h2 { font-size: 2.5em }
+	h3 { font-size: 1.8em }
+	h6 { font-size: 1.3em }
+	p {
+	    font-size: 1.2em;
+	    line-height: 1.4em;
+	}
+	.post ul {
+	    list-style-type: disc;
+	    list-style-position: inside;
+	    font-size: 1.2em;
+	    line-height: 1em;
+	    padding: .5em;
+	    margin: 0;
+	}
+	.post ol {
+	    list-style-position: inside;
+	    font-size: 1.2em;
+	    line-height: 1em;
+	    padding: .5em;
+	    margin: 0;
+	}
+	.post li {
+	    margin: 0;
+	}
+	/* makes blog title not fade on touch screen */
+	.top {
+	    -webkit-opacity: 1;
+	    -moz-opacity: 1;
+	    opacity: 1;
+	}
+	.navigation p { font-size: 1.5em }
+	h6 {
+	    -webkit-opacity: 1;
+	    -moz-opacity: 1;
+	    opacity: 1;
+	}
+	.subscribe p {
+	    font-size: 1em;
+	    margin-top: 1em;
+	}
+	.footer p { font-size: 1em }
+}
+
+/* This make printouts more legible */
+@media print { 
+	body {
+	    font-family: Cardo, Helvetica,sans-serif;
+	    font-size: 14px;
+	    background: white;
+	    color: black;
+	    margin: 10;
+	    width: auto;
+	}
+	.container { display: block }
+	.subscribe { display: none }
+	.footer { display: none }
+}
+
+/* Begin Navigation Bar Styling */
+    #nav {
+        float: center;
+        padding: 0;
+        margin-left: 1em;
+        width: 100%;
+        list-style: none;
+        background-color: #fff;
+        border-bottom: 1px solid #fff; 
+        border-top: 1px solid #fff;
+    }
+    #nav li {
+      float: left; }
+    #nav li a {
+      display: block;
+      text-align:  center;
+      padding: 0 1em;
+      text-decoration: none;
+      font-family: 'Josefin Sans', Georgia, Times, serif;
+      color: #666;
+      border-right: 1px solid #ccc; 
+      -webkit-transition: color 2s, background-color 1s; 
+      transition: color 2s, background-color 1s;
+}
+
+    #nav li a:hover {
+      color: #50817D;
+      background-color: #e6e9e9;
+      }
+/* End navigation bar styling. */
+
+
+
